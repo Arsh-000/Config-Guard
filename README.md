@@ -101,8 +101,4 @@ configguard/
 - MAX_ITERATIONS hard cap prevents infinite loops
 - All decisions logged to `audit_log.jsonl` for full auditability
 
-## Interview Talking Points
-- "The policy knowledge base is small and hardcoded for the demo, but the retrieval mechanism is identical to what I'd use with a full document corpus — TF-IDF as a stand-in for real embeddings so I could focus on getting the agent orchestration right"
-- "This is RAG applied to compliance instead of Q&A — the grounding source is a policy document rather than a factual knowledge base"
-- "The agent has to reason across two independent sources — live device state and retrieved policy — which is more interesting than just checking one"
-- "propose_compliance_fix is the human-in-the-loop guardrail — the agent diagnoses and proposes, a human approves before any real change"
+
