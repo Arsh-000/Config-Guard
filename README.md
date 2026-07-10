@@ -1,9 +1,9 @@
 # ConfigGuard — RAG-Grounded Network Compliance Agent
 
-ConfigGuard is an AI agent that pulls a live device configuration, retrieves relevant company security policy clauses from a knowledge base (RAG), compares the two, and proposes a policy-cited fix — all without touching the device itself.
+ConfigGuard is an AI agent that pulls a live device configuration, retrieves relevant company security policy clauses from a knowledge base (RAG), compares the two, and proposes a policy-cited fix all without touching the device itself.
 
 ## What makes it different from a plain diagnostics agent
-Most "network + AI" demos only check live device state. ConfigGuard adds a second, independent source of truth — a policy knowledge base — and requires the agent to reason across both: "what does the device actually say" vs. "what is it supposed to say according to policy," producing a finding that cites the specific rule violated. This is the RAG grounding principle applied to compliance instead of Q&A.
+Most "network + AI" demos only check live device state. ConfigGuard adds a second, independent source of truth a policy knowledge base and requires the agent to reason across both: "what does the device actually say" vs. "what is it supposed to say according to policy," producing a finding that cites the specific rule violated. This is the RAG grounding principle applied to compliance instead of Q&A.
 
 ## Architecture
 ```
